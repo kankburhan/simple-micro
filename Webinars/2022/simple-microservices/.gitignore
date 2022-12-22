@@ -1,0 +1,32 @@
+# ---> Go
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+.vscode/*
+.idea/*
+
+# another file do not saved
+*.rar
+*.zip
+*.tar.gz
+*.tar.bz2
+*.gzip  
+*.7z
+*.csv
+*.xls  
+*.xlsx
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+db/*.yml
+log
+logs
+vendor
+vendor/*

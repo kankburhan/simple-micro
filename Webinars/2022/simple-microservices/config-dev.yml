@@ -1,0 +1,42 @@
+#logging settings
+log:
+  filename: ../../example-api.log
+  level: DEBUG
+
+#database settings
+database:
+  driver: sqlite
+  hostname: 10.1.35.39
+  port: 5432
+  username: app_user
+  password: app_userPWD2019
+
+server:
+  port: 8080
+  env: dev
+  log-output: console
+  output-file-path: ./logs.log
+  config-path: .
+  service-name: logs
+
+
+security:
+  jwt:
+    secret: asdasdas
+    token-validity-in-second: 86400
+    token-validity-in-second-for-remember-me: 2592000
+
+cache:
+  redis:
+    host: localhost
+    user: 
+    password: 
+    port: 6379
+
+client:
+  setting:
+    timeout: 10
+  clientA:
+    protocol: http
+    hostname: localhost
+    port: 8181

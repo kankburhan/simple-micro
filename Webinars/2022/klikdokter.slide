@@ -1,0 +1,98 @@
+# Build Simple Microservices with Go
+22 Dec 2022
+
+Muhamad Burhanudin
+
+
+
+## About Me
+
+Sr Software Engineer, Klikdokter
+
+.link http://kankburhan@gmail.com kankburhan@gmail.com
+
+.link https://www.linkedin.com/in/kankburhan/ https://www.linkedin.com/in/kankburhan/
+
+.link https://www.twitter.com/kankburhan @kankburhan
+
+.image https://miro.medium.com/max/1400/0*DWuaFZuGhnXDKCds.png
+
+
+## Objective
+- Go Fundamentals
+- Boilerplate
+- Build Microservices
+
+
+## Go Fundamentals
+
+- Hello World
+
+.play code/helloworld/helloworld.go
+
+## Variables
+
+.play code/variables/variables.go
+
+## Variables
+
+.play code/variablestwo/variables.go
+
+## Function
+
+Penulisan function pada golang diawali dengan keyword *func*
+
+
+    func function_name( [parameter list] ) [return_types] {
+        body of the function
+    }
+
+
+
+Function pada go bisa digunakan sebagai:
+- function as value
+- function as Closure
+- function for Method
+
+## Function 
+
+.play code/function/function.go
+
+## Function as Method
+
+.play code/functionmethod/function.go
+
+## Go Routine
+
+.play code/loop/loop.go
+
+## Go Routine
+
+.play code/goroutine/goroutine.go /START OMIT/,/END OMIT/
+
+## Go Boilerplate
+
+Laravel:
+
+.image https://duniacoding.info/wp-content/uploads/2022/01/Laravel-3-1.png _ 300
+
+## Go Boilerplate
+
+Codeigniter: 
+
+.image https://www.guru99.com/images/1/012419_1038_CodeIgniter1.png 
+
+## Go Boilerplate 1
+
+.image boiler1.png _ 400
+
+.link https://github.com/gilcrest/diygoapi.git https://github.com/gilcrest/diygoapi.git
+
+## Go Boilerplate 2
+
+.image boiler2.png _ 500
+
+.link https://github.com/zubroide/go-api-boilerplate.git https://github.com/zubroide/go-api-boilerplate.git 
+
+
+https://github.com/kankburhan/simple-micro.git

@@ -1,0 +1,12 @@
+#logging settings
+log:
+  filename: /logs.log
+  level: DEBUG
+
+#database settings
+database:
+  hostname: localhost
+  port: 5432
+  username: postgres
+  password: sdas
+  schema: testong
